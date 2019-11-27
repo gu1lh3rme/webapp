@@ -155,8 +155,8 @@ export class MapComponent implements OnInit, OnDestroy, DoCheck, OpenUrl {
 
                     this.zone.runOutsideAngular(() => {
                         this.terrabrasilisApi.map({
-                                longitude: -51.921875,
-                                latitude: -14.81973
+                                longitude: -46.921875,
+                                latitude: -20.81973
                             }, this.baselayers, layersToMap);
                     });
                     this.updateOverlayerLegends();

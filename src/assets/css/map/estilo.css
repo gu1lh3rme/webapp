@@ -87,7 +87,7 @@ a:focus {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.2);
   align-items: center;
-  background-color:  #343a40;
+  background-color:  #2590c3;
   color: #fff !important;
   font-weight: 400;
   font-size: 16px;
@@ -141,7 +141,7 @@ a:focus {
 
 .ferramentas {
   padding: 15px 10px 10px 10px;
-  background-color: #A0522D;
+  background-color: #2590c3;
   color: #fff;
 }
 
@@ -335,9 +335,23 @@ dfn:hover::before {
 #sidebar .sidebar-header {
   padding: 4px 20px 4px 20px;
   /*background-image: url(../../img/map/sisgeo.png);*/
-  background: #1bb6ca;
+  background: linear-gradient(-45deg,#52eee6, #2590c3, #23a6d5, #52eee6);
+	background-size: 400% 400%;
+	animation: gradientBG 15s ease infinite;
   color: #1bb6ca;
   height: 200px;
+}
+
+@keyframes gradientBG {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }
 
 #sidebar .sidebar-header img{
@@ -406,7 +420,7 @@ dfn:hover::before {
 
 #sidebar ul li.active>a,
 a[aria-expanded="true"] {
-  color: #00796b;
+  color: #79006f;
   background: #f1f3f4;
 }
 
@@ -467,7 +481,7 @@ a.article:hover {
   font-size: 11px;
   top: -15px;
   margin-left: 36px;
-  color: #14757e !important;
+  color: #0094ff !important;
   overflow: hidden;
   line-height: 1em;
   max-width: 170px;
@@ -871,7 +885,7 @@ a.article:hover {
 ---------------------------------------------------------*/
 
 footer {
-  background-color: #1bb6ca;
+  background-color: #2590c3;
   position: fixed;
   bottom: 0;
   left: 0;
@@ -1034,7 +1048,7 @@ footer {
   color: #fafafa;
   font-weight: 400;
   text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.1);
-  background-color: #108d6f !important;
+  background-color: #2590c3 !important;
 }
 
 /* ---------------------------------------------------
