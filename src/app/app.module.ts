@@ -70,6 +70,7 @@ import * as _ from 'lodash';
 import 'gridstack';
 
 import * as gridstack from 'gridstack';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
@@ -80,8 +81,9 @@ import * as gridstack from 'gridstack';
     DialogComponent,
     WmsSearchComponent,
     ContactComponent,
-    TerrabrasilisApiComponent
-  ],
+    TerrabrasilisApiComponent,
+    HomeComponent
+    ],
   imports: [
     PipeSharedModule,
     BrowserModule,

@@ -1,0 +1,81 @@
+.marron{
+    color: #8B4513;
+}
+
+.nav-item a:after {    
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #fff;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+  }
+
+.nav-item a:hover:after { 
+    width: 100%; 
+    left: 0; 
+}
+
+.btn.btn-primary.btn-link {
+    color: #0090d4 !important;
+}
+
+.purple-filter{
+    background-image: 
+      url('img/river-sun.gif') !important;
+      /* 
+      url('https://media.giphy.com/media/3oGRFgCiTOAX92jLFK/giphy.gif') !important;
+      url('https://media.giphy.com/media/xT4uQgtXXvhZyk1yEg/giphy.gif') !important;
+      url('https://media.giphy.com/media/l3vRb9Ly2ri9zHj44/giphy.gif') !important;
+      url('https://media.giphy.com/media/3og0Izwsge3Ub0Ccog/giphy.gif') !important;
+      url('https://media.giphy.com/media/l4hLPzGuhO9FYXQd2/giphy.gif') !important;*/
+
+}
+
+/* Opacity #2 */
+.hover-img figure {
+  overflow: hidden;
+	background: black;
+}
+.hover-img figure img {
+	opacity: 1;
+	-webkit-transition: .7s ease-in-out;
+  transition: .7s ease-in-out;
+  transform: scaleY(1);
+}
+.hover-img figure:hover img {
+  -webkit-transform: scale(5);
+  transform: scale(5);
+	opacity: .5;
+}
+
+.overlay {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+}
+
+.box:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
