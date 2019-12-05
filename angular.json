@@ -40,14 +40,13 @@
               "src/assets/css/map/jquery.mCustomScrollbar.min.css",
               "src/assets/css/jquery-ui/jquery.loading.css",
               "src/assets/css/jquery-scrolling/jquery.scrolling-tabs.min.css",
+              "src/assets/css/home/material-kit.css",
               "src/styles.scss",
-              "src/theme.scss",
-              "src/app/home/material-kit.css?v=2.0.6"
-            ],
+              "src/theme.scss"            ],
             "scripts": [
               "src/app/home/js/core/popper.min.js",
               "src/app/home/js/core/bootstrap-material-design.min.js",
-              "src/app/home/js/material-kit.js?v=2.0.6"
+              "src/assets/js/material-kit.js"
             ]
           },
           "configurations": {

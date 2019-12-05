@@ -10,5 +10,5 @@ export const common = {
   PROXY_OGC: get(process, 'env.PROXY_OGC', 'http://terrabrasilis.dpi.inpe.br/proxy?url='),
   DASHBOARD_API_HOST: get(process, 'env.DASHBOARD_API_HOST', 'http://terrabrasilis.dpi.inpe.br/dashboard/api/v1/redis-cli/'),
   TERRABRASILIS_API_HOST: get(process, 'env.TERRABRASILIS_API_HOST', 'http://terrabrasilis.dpi.inpe.br/terrabrasilis/api/v1/'),
-  TERRABRASILIS_BUSINESS_API_HOST: get(process, 'env.TERRABRASILIS_BUSINESS_API_HOST', 'http://terrabrasilis.dpi.inpe.br/business/api/v1/')
+  TERRABRASILIS_BUSINESS_API_HOST: get(process, 'env.TERRABRASILIS_BUSINESS_API_HOST', 'http://172.17.0.1:13222/')
 }
